@@ -1,9 +1,11 @@
 ajax-stock-sm
 =============
 
-#### Ajax Stock SM (SM stands for simple maintenances)
+##### Ajax Stock SM (SM stands for simple maintenances)
 
-### Desarrollo de aplicaciones web. CPIFP Ausiàs March. Curso 2013-2014.
+### Desarrollo de aplicaciones web. 
+### CPIFP Ausiàs March. 
+### Curso 2013-2014.
 
 ## ¿Qué es ajax stock?
 Es una aplicación didáctica para aprender a organizar y desarrollar aplicaciones AJAX. Se trata de un proyecto que construimos durante la segunda evaluación de los módulos DES-DEC del ciclo formativo DAW. Está pensado para soportar mantenimientos CRUDL simples sin relaciones (SM).
