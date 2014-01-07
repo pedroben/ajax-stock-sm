@@ -1,7 +1,7 @@
 ajax-stock-sm
 =============
 
-Ajax Stock SM (SM stands for simple maintenances)
+#### Ajax Stock SM (SM stands for simple maintenances)
 
 ### Desarrollo de aplicaciones web. CPIFP Ausiàs March. Curso 2013-2014.
 
