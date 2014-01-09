@@ -6,12 +6,15 @@
 
 package net.rafaelaznar.bean;
 
+import javax.ejb.Stateless;
+
 /**
  *
  * @author Pedro Benito
  */
+@Stateless
 public class ProductoBean {
-    private int id;
+ private int id;
     private String codigo, descripcion, precio;
     private int id_tipoproducto;
 
