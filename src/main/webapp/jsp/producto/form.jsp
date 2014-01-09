@@ -1,10 +1,10 @@
 <%-- 
     Document   : form
-    Created on : Jan 21, 2013, 10:24:17 AM
-    Author     : rafa
+    Created on : 09-ene-2014
+    Author     : Pedro Benito
 --%>
 <form id="formulario" class="form-horizontal" name="formulario" action="json">
-    <h2>Cliente</h2>
+    <h2>Producto</h2>
     <div class="control-group">
         <label class="control-label" for="inputId">Id:</label>
         <div class="controls">
@@ -12,27 +12,27 @@
         </div>
     </div>
     <div class="control-group">
-        <label class="control-label"  for="inputNombre">Nombre:</label>
+        <label class="control-label"  for="inputCodigo">Código:</label>
         <div class="controls">
-            <input type="text" id="nombre" name="nombre" size="15" placeholder="nombre" />
+            <input type="text" id="codigo" name="codigo" size="15" placeholder="codigo" />
         </div>
     </div>
     <div class="control-group">
-        <label class="control-label" for="inputApe1" >Primer apellido:</label>
+        <label class="control-label" for="inputDescripcion" >Descripción:</label>
         <div class="controls">
-            <input type="text" id="ape1" name="ape1" placeholder="primer apellido" size="15" />
+            <input type="text" id="descripcion" name="descripcion" placeholder="descripcion" size="15" />
         </div>
     </div>
     <div class="control-group">
-        <label class="control-label"  for="inputApe2">Segundo apellido:</label>
+        <label class="control-label"  for="inputPrecio">Precio:</label>
         <div class="controls">
-            <input type="text" id="ape2" name="ape2" placeholder="segundo apellido" size="15" />
+            <input type="text" id="precio" name="precio" placeholder="precio" size="15" />
         </div>
     </div>
     <div class="control-group">
-        <label class="control-label"  for="inputEmail">Email:</label>
+        <label class="control-label"  for="inputId_tipoproducto">Tipo de Producto:</label>
         <div class="controls">
-            <input type="text" id="email" name="email" placeholder="email" size="15" />
+            <input type="text" id="id_tipoproducto" name="id_tipoproducto" placeholder="id_tipoproducto" size="15" />
         </div>
     </div>
     <div class="control-group">
@@ -41,3 +41,4 @@
         </div>
     </div>
 </form>
+
