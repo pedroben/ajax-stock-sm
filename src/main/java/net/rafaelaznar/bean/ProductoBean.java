@@ -1,25 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package net.rafaelaznar.bean;
-
-import javax.ejb.Stateless;
 
 /**
  *
  * @author Pedro Benito
  */
-@Stateless
 public class ProductoBean {
- private int id;
+
+    private int id;
     private String codigo, descripcion, precio;
     private int id_tipoproducto;
 
     public ProductoBean() {
-
     }
 
     public ProductoBean(int id) {
@@ -65,4 +56,5 @@ public class ProductoBean {
     public void setId_tipoproducto(int id_tipoproducto) {
         this.id_tipoproducto = id_tipoproducto;
     }
+
 }

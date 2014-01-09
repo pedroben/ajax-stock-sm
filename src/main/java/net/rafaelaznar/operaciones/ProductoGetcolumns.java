@@ -12,7 +12,7 @@ import net.rafaelaznar.helper.Conexion;
  *
  * @author Pedro Benito
  */
-public class ProductoGetColumns implements GenericOperation {
+public class ProductoGetcolumns implements GenericOperation {
 
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
